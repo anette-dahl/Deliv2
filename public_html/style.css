@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: sans-serif;
+    background: url("images/FlytogetGardermoen.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+h2 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+h3 {
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+h3 a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+.navi {
+    text-align: left;
+    padding-left: 30px;
+    text-decoration: none;
+    padding-top: 10px;
+    position: absolute;
+    margin-top: -130px;
+    list-style: none;
+}
+.navi a {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    height: 50px;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+/*===========
+Pictures
+============*/
+
+.section-pictures {
+    padding: 0;
+}
+.pictures-showcase {
+    list-style: none;
+    width: 100%;
+}
+.pictures-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+.picture-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+.picture-photo img {
+    opacity: 0.6;
+    /*  70% des Fotos werden ausgebliechen*/
+    width: 100%;
+    height: 400px;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    /* gleiche wie bei links*/
+}
+.picture-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    /* Bild wird gezoomt wenn man trauf geht und auch wieder zurück*/
+}
+.video {
+    text-align: center;
+}
+#video1 {
+    margin-left: 50px;
+    float: left;
+}
+#video2 {
+    margin-right: 50px;
+}
+#ersteuberschrift {
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+#zweiteuberschrift {
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    margin-top: -60px;
+    padding-left: 50px;
+}
+.part2 ul {
+    padding-left: 50px;
+    list-style-type: circle;
+}
+.part2 li {
+    padding-bottom: 5px;
+}
+.part3 ul {
+    padding-left: 50px;
+    list-style-type: circle;
+}
+.part3 li {
+    padding-bottom: 5px;
+}
+h4 {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+}
